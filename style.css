@@ -6,6 +6,10 @@
     height: auto;
 }
 
+#description {
+text-align: center; 
+}
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background: white; }
