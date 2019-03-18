@@ -20,10 +20,10 @@
     },
     {
       id: 2,
-      name: 'Once upon a time...',
-      age: 2,
-      job: 'Storyteller',
-      images: ['images/tag1.jpg'],
+      name: 'Riz',
+      age: "céréales",
+      job: '"Produit disponible en version complet, blanc et basmati",
+      images: ['BolRizSushi.jpg'],
       distance: 2,
       description: '(Keep swiping right!)'
     },
