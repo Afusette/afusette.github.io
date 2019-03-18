@@ -25,25 +25,25 @@
       job: "Produit disponible en version complet, blanc et basmati",
       images: ['BolRizSushi.jpg'],
       distance: 2,
-      description: '(Keep swiping right!)'
+      description: 'Retrouvez notre sélection de recettes à base de riz sur www.unwaste/recipes.fr'
     },
     {
       id: 3,
       name: 'Miel',
-      age: "sucré et accompagnement",
-      job: 'Produit disponible en version Accacia et châtaigner',
+      age: "gourmandise, petit-déjeuner et accompagnement",
+      job: 'Produit disponible en version Accacia et Châtaigner',
       images: ['miel.jpg'],
       distance: 3,
-      description: '(Keep going! It gets better!)📸'
+      description: 'Retrouvez tout nos conseils pour un petit-déjeuner équilibré sur www.unwaste/recipes.fr'
     },
 	{
       id: 4,
-      name: 'It\'s a match!',
-      age: 4,
-      job: 'It went well.',
-      images: ['images/tag3.png'],
+      name: 'Chocolat',
+      age: "gourmandise,  boisson et pâtisserie",
+      job: 'Produit avec lactose. Disponible en noir, blanc, au lait et bio.',
+      images: ['chocolat.png'],
       distance: 4,
-      description: '(Continue!)📸'
+      description: 'Vous pouvez modifier vos préférences dans l\'onglet www.unwaste/preferences.fr' 
     },
 	{
       id: 5,
