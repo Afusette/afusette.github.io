@@ -22,17 +22,17 @@
       id: 2,
       name: 'Riz',
       age: "céréales",
-      job: '"Produit disponible en version complet, blanc et basmati",
+      job: "Produit disponible en version complet, blanc et basmati",
       images: ['BolRizSushi.jpg'],
       distance: 2,
       description: '(Keep swiping right!)'
     },
     {
       id: 3,
-      name: 'A boy met a girl on Tinder',
-      age: 3,
-      job: 'Motivational Speaker',
-      images: ['images/tag2.jpg'],
+      name: 'Miel',
+      age: "sucré et accompagnement",
+      job: 'Produit disponible en version Accacia et châtaigner',
+      images: ['miel.jpg'],
       distance: 3,
       description: '(Keep going! It gets better!)📸'
     },
