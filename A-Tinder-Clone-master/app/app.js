@@ -1,4 +1,4 @@
-function () {
+(function () {
   const items = [
     {
       id: 0,
@@ -45,153 +45,15 @@ function () {
       distance: 4,
       description: '' 
     },
-
-    //
 	{
       id: 5,
       name: 'Choux de Bruxelles',
-      age: "légumes"
-      job: '',
+      age: "légumes",
+      job: "",
       images: ['images/chouDeBruxelles.gif'],
       distance: 5,
       description: 'I start people off on really great relationships. It works out really really well usually.'
     },
-	{
-      id: 6,
-      name: 'Our first date',
-      age: 6,
-      job: 'Mekong Cafe 2',
-      images: ['images/firstDate1.png', 'images/firstDate2.png'],
-      distance: 6,
-      description: 'She arrived before I did. I didn\'t recognize her, so I gave her a call when I was sitting behind her the whole time!'
-    },
-	{
-	  id: 7,
-      name: 'Where we made it official',
-      age: 7,
-      job: 'Discovery (Manila) Park',
-      images: ['images/Official1.png', 'images/Official2.png'],
-      distance: 7,
-      description: 'It was July 4th, 2016. We were watching the fireworks. He said "Well, we\'ve been on a few dates." - "Seven dates." - "Seven? Seven dates now. I think we should make it official."'	
-	},
-	{
-	  id: 8,
-      name: 'Where we shared our first kiss',
-      age: 8,
-      job: 'My front doorstep',
-      images: ['images/firstKiss1.jpg'],
-      distance: 8,
-      description: 'We had just finished up a date at the library. We then sat by the duck pond for a while and had a positive DTR. When we were at my doorstep, I played with my keys and went 60%. She didn\'t get it, so I said I was pulling a Hitch move and going 60%.'	
-	},
-	{
-	  id: 9,
-      name: 'Thus followed many dates.',
-      age: 9,
-      job: 'Everywhere',
-      images: ['images/misc1.jpg', 'images/me3.jpg'],
-      distance: 9,
-      description: 'We went to a plate painting place and hers was awesome!'
-	},
-	{
-	  id: 10,
-      name: 'And our love grew...',
-      age: 10,
-      job: 'Pizza making',
-      images: ['images/us1.jpg', 'images/us2.jpg'],
-      distance: 9,
-      description: 'This is when we made pizzas together and played games.'
-	},
-	{
-	  id: 11,
-      name: 'and grew...',
-      age: 11,
-      job: 'Mustache growing',
-      images: ['images/us5.jpg'],
-      distance: 11,
-      description: 'After a successful attack on the nickle arcade, we walk away with our pride and considerably more facial hair.'
-	},
-	{
-	  id: 12,
-      name: 'and grew.',
-      age: 12,
-      job: 'Slurpee consumer',
-      images: ['images/us8.jpg'],
-      distance: 12,
-      description: 'This is where we made pizzas together and played games.'
-	},
-	{
-		id: 13,
-		name: 'She\'s an example',
-		age: 13,
-		job: '(Read the profile)',
-		images: ['images/us6.jpg', 'images/us6.2.jpg'],
-		distance: 13,
-		description: 'Whitley is a fantastic example to me. First of all, she is a devoted daughter of God. She strives to make her Heavenly Father and her earthly parents proud of her every action. She shows dilligence and care in all that she does, big or small. She is devoted to being the best person she can be and always striving to be more Christlike.'
-	},
-	{
-		id: 14,
-		name: 'She makes me better',
-		age: 14,
-		job: 'I want to be the very best.',
-		images: ['images/me5.jpg', 'images/me6.jpg', 'images/us9.jpg'],
-		distance: 14,
-		description: 'Because she is so great, she makes me want to be my very best. She deserves the absolute most wonderful and loving guy in the world, and I want to be that man for her.'
-	},
-	{
-		id: 15,
-		name: 'Our goal',
-		age: 15,
-		job: 'Temple',
-		images: ['images/us3.jpg', 'images/us4.jpg'],
-		distance: 15,
-		description: 'But there is one last step...'
-	},
-	{
-		id: 16,
-		name: 'But there is one last step...',
-		age: 16,
-		job: 'Nearby',
-		images: ['images/tag4.jpg'],
-		distance: 0,
-		description: 'But there is one last step...'
-	},
-	{
-		id: 17,
-		name: 'Please open the door',
-		age: 17,
-		job: 'That one that I always come in through',
-		images: ['images/open1.jpg'],
-		distance: 15,
-		description: 'What are you waiting for?'
-	},
-	{
-		id: 18,
-		name: 'At the doorstep',
-		age: 18,
-		job: 'Professional Flower Holder',
-		images: ['images/Engage1.JPG'],
-		distance: 0,
-		description: 'I sent the message and then waited on the doorstep for about 10 minutes. She kept reloading the site to show her family halfway through.'
-	},
-	{
-		id: 19,
-		name: 'Reaction',
-		age: 19,
-		job: 'A Great Hugger',
-		images: ['images/Engage2.JPG'],
-		distance: 0,
-		description: 'She opened the door crying. Honestly, she was so emotional that she forgot to say yes "officially" until some minutes later when her dad asked her. She said: "Oh I guess I didn\'t say anything yet. *looks at me* Yes!'
-	},
-	{
-		id: 19,
-		name: 'She said yes!',
-		age: 18,
-		job: 'Officially Engaged Man',
-		images: ['images/Engage3.jpg'],
-		distance: 0,
-		description: 'This was later that day when we had time to prepare ourselves.'
-  }
-
   ];
 
   const dataProvider = (function* () {
