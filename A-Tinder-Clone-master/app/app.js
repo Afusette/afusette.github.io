@@ -1,4 +1,4 @@
-(function () {
+function () {
   const items = [
     {
       id: 0,
@@ -7,7 +7,7 @@
       job: 'Produit avec gluten',
       images: ['images/pates.jpg'],
       distance: 0,
-      description: 'Toutes les sortes de pâtes.'
+      description: ''
     },
     {
       id: 1,
@@ -16,41 +16,43 @@
       job: "Aucune trace d'allergènes",
       images: ['images/aubergines.jpg'],
       distance: 1,
-      description: 'Aubergines pour une moussaka par exemple.'
+      description: ''
     },
     {
       id: 2,
       name: 'Riz',
       age: "céréales",
-      job: "Produit disponible en version complet, blanc et basmati",
-      images: ['BolRizSushi.jpg'],
+      job: '',
+      images: ['images/BolRizSushi.jpg'],
       distance: 2,
-      description: 'Retrouvez notre sélection de recettes à base de riz sur www.unwaste/recipes.fr'
+      description: ''
     },
     {
       id: 3,
       name: 'Miel',
-      age: "gourmandise, petit-déjeuner et accompagnement",
-      job: 'Produit disponible en version Accacia et Châtaigner',
-      images: ['miel.jpg'],
+      age: "",
+      job: '',
+      images: ['images/miel.jpg'],
       distance: 3,
-      description: 'Retrouvez tout nos conseils pour un petit-déjeuner équilibré sur www.unwaste/recipes.fr'
+      description: ''
     },
 	{
       id: 4,
       name: 'Chocolat',
-      age: "gourmandise,  boisson et pâtisserie",
-      job: 'Produit avec lactose. Disponible en noir, blanc, au lait et bio.',
-      images: ['chocolat.png'],
+      age: "gourmandise",
+      job: '',
+      images: ['images/chocolat.png'],
       distance: 4,
-      description: 'Vous pouvez modifier vos préférences dans l\'onglet www.unwaste/preferences.fr' 
+      description: '' 
     },
+
+    //
 	{
       id: 5,
-      name: 'Our first hello',
-      age: 5,
-      job: 'Jedi Master',
-      images: ['images/firstHello.gif'],
+      name: 'Choux de Bruxelles',
+      age: "légumes"
+      job: '',
+      images: ['images/chouDeBruxelles.gif'],
       distance: 5,
       description: 'I start people off on really great relationships. It works out really really well usually.'
     },
@@ -188,7 +190,8 @@
 		images: ['images/Engage3.jpg'],
 		distance: 0,
 		description: 'This was later that day when we had time to prepare ourselves.'
-	}
+  }
+
   ];
 
   const dataProvider = (function* () {
