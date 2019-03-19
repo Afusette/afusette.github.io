@@ -41,7 +41,7 @@
       name: 'Chocolat',
       age: "gourmandise",
       job: '',
-      images: ['images/chocolat.png'],
+      images: ['images/chocolat.jpg'],
       distance: 4,
       description: '' 
     },
@@ -50,7 +50,7 @@
       name: 'Choux de Bruxelles',
       age: "légumes",
       job: "",
-      images: ['images/chouDeBruxelles.gif'],
+      images: ['images/chouDeBruxelles.jpg'],
       distance: 5,
       description: 'I start people off on really great relationships. It works out really really well usually.'
     },
