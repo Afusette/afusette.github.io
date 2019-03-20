@@ -1,5 +1,5 @@
-body { background: white; }
-form { max-width:420px; margin: auto auto; }
+.body { background: white; }
+.form { max-width:420px; margin: auto auto; }
 
 .feedback-input {
   color:white;
