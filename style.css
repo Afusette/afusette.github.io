@@ -1,4 +1,4 @@
-.logo {
+#logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +6,7 @@
     height: auto;
 }
 
-.description {
+#description {
 text-align: center;
 font-family: 'Alegreya Sans', sans-serif; 
 }
