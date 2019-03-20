@@ -1,4 +1,4 @@
-#logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -6,12 +6,12 @@
     height: auto;
 }
 
-#description {
+.description {
 text-align: center;
 font-family: 'Alegreya Sans', sans-serif; 
 }
 
-#wrap {
+.wrap {
   position: absolute;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@ font-family: 'Alegreya Sans', sans-serif;
   margin: auto;
 }
 
-#button {
+.button {
   background-color: transparent;
   border: 2px solid;
   border-radius: 4px;
@@ -42,16 +42,16 @@ font-family: 'Alegreya Sans', sans-serif;
   transition: all .2s ease-in-out;
 }
 
-#roll-text {
+.roll-text {
   display: block;
   position: relative;
   transition: all 420ms cubic-bezier(.175,.885,.32,1.275);
 }
 
-#roll-text:last-child {
+.roll-text:last-child {
   color: #fff;
 }
 
-#rollover:hover .roll-text:first-child {
+.rollover:hover .roll-text:first-child {
   margin-top: -38px;
 }
