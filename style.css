@@ -1,20 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20%;
-    width: 50%;
-    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 50%;
+  height: auto;
 }
 
 #description {
-text-align: center;
-font-family: 'Alegreya Sans', sans-serif; 
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .wrap {
+  display: flex;
+  /*flex-direction: column;*/
   justify-content: center;
-  width: 100%; 
 }
 
 .button {
@@ -40,7 +47,7 @@ font-family: 'Alegreya Sans', sans-serif;
 .roll-text {
   display: block;
   position: relative;
-  transition: all 420ms cubic-bezier(.175,.885,.32,1.275);
+  transition: all 420ms cubic-bezier(.175, .885, .32, 1.275);
 }
 
 .roll-text:last-child {
