@@ -44,3 +44,16 @@ textarea {
 [type="submit"]:hover { background:#3f8755; 
 }
 
+#logo-page2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 50%;
+    height: auto;
+}
+
+#description-page2 {
+text-align: center;
+font-family: 'Alegreya Sans', sans-serif; 
+}
