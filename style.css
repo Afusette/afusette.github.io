@@ -13,14 +13,8 @@ font-family: 'Alegreya Sans', sans-serif;
 }
 
 .wrap {
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 60px;
-  height: 100px;
-  width: 200px;
-  margin: auto;
+  justify-content: center;
+  width: 100%; 
 }
 
 .button {
