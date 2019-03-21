@@ -52,3 +52,39 @@ textarea {
     width: 50%;
     height: auto;
 }
+
+.bar {
+    display: flex;
+    background: pink;
+    padding: 10px;
+    max-width: 325px;
+    margin: 10px auto;
+    justify-content: space-between;
+    position: relative;
+    .item {
+      padding: 10px;
+      transition: 1000ms all ease;
+      z-index: 1;
+      &:hover {
+        cursor: pointer;
+      }
+      &.active {
+        background: teal;
+        color: white;
+      }
+    }
+  }
+  .thing {
+    transition: 300ms all ease-in-out;
+    position: absolute;
+    background: teal;
+    width: 30px;
+    height: 30px;
+    top: 14px;
+    border-radius: 50%;
+    &.moving {
+      filter: blur(2px);
+      transform: scale(1.2);
+      background: red;
+    }
+  }
